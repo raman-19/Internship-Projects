@@ -5,52 +5,56 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>FitZone Gym</title>
   <link rel="stylesheet" href="Css/main.css">
- <link rel="stylesheet" href="Css/layout.css">
-C<link rel="stylesheet" href="Css/responsive.css">
-
+  <link rel="stylesheet" href="Css/layout.css">
+  <link rel="stylesheet" href="Css/responsive.css">
 </head>
 <body>
+  <header class="header">
+    <div class="logo">FitZone</div>
+    <nav class="nav">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="services.html">Services</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <button class="menu-btn" onclick="toggleMenu()">☰</button>
+  </header>
 
-<header>
-  <nav class="navbar">
-    <h1 class="logo">FitZone</h1>
-    <button class="menu-btn" aria-label="Toggle Menu">☰</button>
-    <ul class="nav-links">
-      <li><a href="index.html">Home</a></li>
-      <li><a href="about.html">About</a></li>
-      <li><a href="services.html">Services</a></li>
-      <li><a href="contact.html">Contact</a></li>
-    </ul>
-  </nav>
-</header>
+  <main>
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="hero-text">
+        <h2>Build Your Body</h2>
+        <p>Join the best gym in your city</p>
+        <button>Join Now</button>
+      </div>
+    </section>
 
-<main>
-  <section class="hero">
-    <h2>Train Hard. Stay Fit.</h2>
-    <p>Join the best gym in your city.</p>
-    <a href="contact.html" class="btn">Join Now</a>
-  </section>
+    <!-- Programs / Slider Section -->
+    <section class="programs" id="services">
+      <h2>Our Programs</h2>
+      <div class="container">
+        <div class="card">
+          <img src="images/optimized/workout1.jpg" alt="Strength Training">
+          <h3>Strength Training</h3>
+        </div>
+        <div class="card">
+          <img src="images/optimized/workout2.jpg" alt="Cardio Fitness">
+          <h3>Cardio Fitness</h3>
+        </div>
+        <div class="card">
+          <img src="images/optimized/workout3.jpg" alt="Yoga Classes">
+          <h3>Yoga Classes</h3>
+        </div>
+      </div>
+    </section>
+  </main>
 
-  <section class="grid container">
-    <article class="card">
-      <h3>Modern Equipment</h3>
-      <p>State-of-the-art gym machines.</p>
-    </article>
-    <article class="card">
-      <h3>Expert Trainers</h3>
-      <p>Certified fitness professionals.</p>
-    </article>
-    <article class="card">
-      <h3>Flexible Plans</h3>
-      <p>Affordable membership plans.</p>
-    </article>
-  </section>
-</main>
+  <footer class="footer">
+    <p>© 2025 FitZone Gym</p>
+  </footer>
 
-<footer>
-  <p>&copy; 2025 FitZone Gym</p>
-</footer>
-
-<script src="js/main.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/form-validation.js"></script>
 </body>
 </html>

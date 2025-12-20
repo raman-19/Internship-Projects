@@ -3,41 +3,54 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Contact | FitZone</title>
+  <title>Contact | FitZone Gym</title>
   <link rel="stylesheet" href="Css/main.css">
- <link rel="stylesheet" href="Css/layout.css">
- <link rel="stylesheet" href="Css/responsive.css">
-
+  <link rel="stylesheet" href="Css/layout.css">
+  <link rel="stylesheet" href="Css/responsive.css">
 </head>
 <body>
+  <header class="header">
+    <div class="logo">FitZone</div>
+    <nav class="nav">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="services.html">Services</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <button class="menu-btn" onclick="toggleMenu()">☰</button>
+  </header>
 
-<header>
-  <nav class="navbar">
-    <h1 class="logo">FitZone</h1>
-  </nav>
-</header>
+  <main class="contact-page">
+    <section class="contact-container">
+      <!-- Info -->
+      <div class="contact-info">
+        <h2>Get in Touch</h2>
+        <p>Ready to start your fitness journey? Contact us today!</p>
+        <ul>
+          <li>📍 New Delhi, India</li>
+          <li>📞 +91 98765 43210</li>
+          <li>✉️ info@fitzonegym.com</li>
+        </ul>
+      </div>
 
-<main class="container">
-  <h2>Contact Us</h2>
+      <!-- Form -->
+      <div class="contact-form">
+        <h3>Send Us a Message</h3>
+        <form id="contactForm">
+          <input type="text" id="name" placeholder="Your Name" required>
+          <input type="email" id="email" placeholder="Your Email" required>
+          <textarea placeholder="Your Message" rows="5" required></textarea>
+          <button type="submit">Send Message</button>
+        </form>
+      </div>
+    </section>
+  </main>
 
-  <form id="contactForm">
-    <label>Name</label>
-    <input type="text" id="name" required>
+  <footer class="footer">
+    <p>© 2025 FitZone Gym</p>
+  </footer>
 
-    <label>Email</label>
-    <input type="email" id="email" required>
-
-    <label>Message</label>
-    <textarea id="message" required></textarea>
-
-    <button type="submit" class="btn">Submit</button>
-  </form>
-</main>
-
-<footer>
-  <p> &copy; 2025 FitZone Gym</p>
-</footer>
-
-<script src="js/form-validation.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/form-validation.js"></script>
 </body>
 </html>

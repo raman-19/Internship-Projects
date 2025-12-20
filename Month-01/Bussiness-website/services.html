@@ -3,44 +3,48 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Services | FitZone</title>
+  <title>Services | FitZone Gym</title>
   <link rel="stylesheet" href="Css/main.css">
   <link rel="stylesheet" href="Css/layout.css">
   <link rel="stylesheet" href="Css/responsive.css">
-
 </head>
 <body>
+  <header class="header">
+    <div class="logo">FitZone</div>
+    <nav class="nav">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="services.html">Services</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <button class="menu-btn" onclick="toggleMenu()">☰</button>
+  </header>
 
-<header>
-  <nav class="navbar">
-    <h1 class="logo">FitZone</h1>
-    <ul class="nav-links">
-      <li><a href="index.html">Home</a></li>
-      <li><a href="about.html">About</a></li>
-      <li><a href="services.html">Services</a></li>
-      <li><a href="contact.html">Contact</a></li>
-    </ul>
-  </nav>
-</header>
+  <main class="programs">
+    <h2>Our Services</h2>
+    <div class="container">
+      <div class="card">
+        <img src="images/optimized/service1.jpg" alt="Personal Training">
+        <h3>Personal Training</h3>
+        <p>One-on-one sessions with certified trainers.</p>
+      </div>
+      <div class="card">
+        <img src="images/optimized/service2.jpg" alt="Diet & Nutrition">
+        <h3>Diet & Nutrition</h3>
+        <p>Customized meal plans for your fitness goals.</p>
+      </div>
+      <div class="card">
+        <img src="images/optimized/service3.jpg" alt="Yoga & Flexibility">
+        <h3>Yoga & Flexibility</h3>
+        <p>Relax, stretch, and improve mobility with guided sessions.</p>
+      </div>
+    </div>
+  </main>
 
-<main class="grid container">
-  <article class="card">
-    <h3>Personal Training</h3>
-    <p>One-on-one fitness coaching.</p>
-  </article>
-  <article class="card">
-    <h3>Yoga Classes</h3>
-    <p>Improve flexibility and balance.</p>
-  </article>
-  <article class="card">
-    <h3>Nutrition Advice</h3>
-    <p>Personalized diet plans.</p>
-  </article>
-</main>
+  <footer class="footer">
+    <p>© 2025 FitZone Gym</p>
+  </footer>
 
-<footer>
-  <p>&copy; 2025 FitZone Gym</p>
-</footer>
-
+  <script src="js/main.js"></script>
 </body>
 </html>
