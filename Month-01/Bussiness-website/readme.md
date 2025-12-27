@@ -76,6 +76,3 @@ Download or clone the project
 Open index.html in any modern browser
 
 Navigate through the pages using the menu
-
-https://github.com/raman-19/Internship-Projects
-https://github.com/raman-19/Internship-Projects/blob/main/Month-01/Bussiness-website/readme.md
