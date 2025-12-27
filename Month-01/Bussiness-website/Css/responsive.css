@@ -8,7 +8,7 @@
 /* ====== Laptops / Tablets ====== */
 @media (max-width: 1024px) {
   .container {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 25px;
   }
 
@@ -44,6 +44,19 @@
 
   .card img {
     height: 150px;
+  }
+
+   .contact-hero {
+    height: 30vh;
+    padding: 20px;
+  }
+
+  .contact-cards {
+    margin-top: 20px;
+  }
+
+  .contact-form {
+    width: 100%;
   }
 
   .contact-container {

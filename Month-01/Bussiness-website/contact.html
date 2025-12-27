@@ -7,6 +7,8 @@
   <link rel="stylesheet" href="Css/main.css">
   <link rel="stylesheet" href="Css/layout.css">
   <link rel="stylesheet" href="Css/responsive.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
 </head>
 <body>
   <header class="header">
@@ -21,30 +23,49 @@
   </header>
 
   <main class="contact-page">
-    <section class="contact-container">
-      <!-- Info -->
-      <div class="contact-info">
-        <h2>Get in Touch</h2>
-        <p>Ready to start your fitness journey? Contact us today!</p>
-        <ul>
-          <li>📍 New Delhi, India</li>
-          <li>📞 +91 98765 43210</li>
-          <li>✉️ info@fitzonegym.com</li>
-        </ul>
-      </div>
 
-      <!-- Form -->
-      <div class="contact-form">
-        <h3>Send Us a Message</h3>
-        <form id="contactForm">
-          <input type="text" id="name" placeholder="Your Name" required>
-          <input type="email" id="email" placeholder="Your Email" required>
-          <textarea placeholder="Your Message" rows="5" required></textarea>
-          <button type="submit">Send Message</button>
-        </form>
-      </div>
-    </section>
-  </main>
+  <!-- Top Image -->
+  <section class="contact-hero">
+    <h2>Contact FitZone Gym</h2>
+    <p>We’re here to help you start your fitness journey</p>
+  </section>
+
+  <!-- Info Cards -->
+  <section class="contact-cards container">
+    <div class="card">
+      <i class="fas fa-location-dot"></i>
+      <h3>Visit Us</h3>
+      <p>West Bengal, India</p>
+    </div>
+
+    <div class="card">
+      <i class="fas fa-phone"></i>
+      <h3>Call Us</h3>
+      <p>+91 98765 43210</p>
+    </div>
+
+    <div class="card">
+      <i class="fas fa-envelope"></i>
+      <h3>Email</h3>
+      <p>info@fitzonegym.com</p>
+    </div>
+  </section>
+
+  <!-- Contact Form Card -->
+  <section class="contact-form-section">
+    <div class="contact-form">
+      <h3>Send Us a Message</h3>
+
+      <form id="contactForm">
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <textarea rows="5" placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+ </main>
 
   <footer class="footer">
     <p>© 2025 FitZone Gym</p>
