@@ -68,7 +68,6 @@ Proper contrast and readable font sizes
 Responsive images
 
 Clear navigation for users
-![alt text](<Screenshot 2025-12-27 222208.png>) ![alt text](<Screenshot 2025-12-27 222040.png>) ![alt text](<Screenshot 2025-12-27 222116.png>)
 
 How to View This Website
 
